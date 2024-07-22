@@ -1,4 +1,4 @@
-# WebSocket Example
+# WebSocket Example with Pythin Fat API and React JS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -31,13 +31,13 @@ cd frontend
 Install the dependencies:
 
 ```
-yarn install
+npm install
 ```
 
 And run it:
 
 ``` 
-yarn start
+npm start
 ```
 
 Open the browser in `localhost:3000` and you must see a chart being updated every second.

@@ -25,6 +25,7 @@ class App extends React.Component {
 
   onMessage = (ev) => {
     const recv = JSON.parse(ev.data)
+    console.log(recv)
     const {data, count} = this.state
     let newData = [...data]
     // Remove first data if we received more than 20 values
